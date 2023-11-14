@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float jumpForce;
+    public float jumpForce 0.5f;
     public float gravityModifier;
     public bool IsOnGround = true;
     public bool gameOver = false;
