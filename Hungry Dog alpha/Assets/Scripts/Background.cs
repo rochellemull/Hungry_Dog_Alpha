@@ -18,15 +18,15 @@ public class Background : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveBackground(repeat);
-        
-    }
-    public void moveBackground(float repeat)
-    {
-        
         if (transform.position.x < (start.x - repeat))
         {
             transform.position = start;
         }
+
+    }
+    public void moveBackground(float repeat)
+    {
+        
+        
     }
 }

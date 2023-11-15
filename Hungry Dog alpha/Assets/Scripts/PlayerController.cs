@@ -33,44 +33,49 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && IsOnGround && !gameOver ){
+        if (Input.GetKeyDown(KeyCode.Space) && IsOnGround && !gameOver)
+        {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             player.PlayOneShot(jump, 1.0f);
             player.PlayOneShot(bark, 1.0f);
             IsOnGround = false;
         }
-        
-    }
-    
 
-    private void OnCollisionEnter(Collision collision){
-        if (collision.gameObject.CompareTag("Ground")){
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
             IsOnGround = true;
-   }
-       else if (collision.gameObject.CompareTag("Fence")){
-           gameOver = true;
-           Debug.Log("Game Over");
-           player.PlayOneShot(crash, 1.0f);
+        }
+        else if (collision.gameObject.CompareTag("Fence"))
+        {
+            gameOver = true;
+            Debug.Log("Game Over");
+            player.PlayOneShot(crash, 1.0f);
 
 
 
         }
-       else if (collision.gameObject.CompareTag("Bone"))
+        else if (collision.gameObject.CompareTag("Bone"))
         {
             player.PlayOneShot(bark, 1.0f);
-           
+
         }
         else if (collision.gameObject.CompareTag("Ball"))
         {
             player.PlayOneShot(bark, 1.0f);
-            
+
 
 
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Ball")){
+        if (other.gameObject.CompareTag("Ball"))
+        {
             Destroy(other.gameObject);
             hasPower = true;
             repeatFast = GetComponent<BoxCollider>().size.x / 4;
