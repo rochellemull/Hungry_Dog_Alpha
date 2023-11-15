@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagment;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public List<GameObject> targets;
+    public List<GameObject> gameOverMessage;
     private Int score;
     public TextMeshProUGUI scoreText;
     private float spawnRate = 1.0f;
@@ -40,8 +43,11 @@ public class GameManager : MonoBehaviour
    scoreText.text  = "Score: " + score; 
 }
 
-    void GameOver(){   //game over 
+    void GameOver(){   //game over and restart Button
+        restartButton.gameObject.SetActive(true);
         gameOverText.gameObject.SetActive(true);
+        IsGameActive = false;
+
     }
 
     private void OnTriggerEnter(Collider other){
@@ -49,6 +55,9 @@ public class GameManager : MonoBehaviour
         If (!gameObject.CompareTag("Bad")) {gameManager.GameOver();}
     }
 
-    
+    public void restartGame(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 
 }
