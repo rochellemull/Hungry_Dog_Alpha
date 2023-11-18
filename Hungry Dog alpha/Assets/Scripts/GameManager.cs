@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+
+//adding scoring Script
     public Text ScoringText;
     public int score;
     public int finalScore = 0;
