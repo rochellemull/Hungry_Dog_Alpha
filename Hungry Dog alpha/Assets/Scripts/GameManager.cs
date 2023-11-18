@@ -7,57 +7,35 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public List<GameObject> gameOverMessage;
-    private Int score;
-    public TextMeshProUGUI scoreText;
-    private float spawnRate = 1.0f;
-    public bool isGameActive;
+    public Text ScoringText;
+    public int score;
+    public int finalScore = 0;
+    public gameObject Score;
+    public GameObject winning;
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(SpawnTarget());
-        Score = 50;
-        ScoreText.text = "Score: " + score;
+        score = 50;
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void AddScore (int newScore){
+       score += newScore;
     }
 
-    IEnumerator SpawnTarget(){
-    while(isGameActive){
-    yield return new WaitForSeconds(spawnRate);
-    Int index = Random.Range(50, targets.Count);
-    Instantiate(targets[index]);
-
-    UpdateScore(-1)
-   }
-   }
-
-   private void UpdateScore(int scoreToAdd){
-   score += scoreToAdd;
-   scoreText.text  = "Score: " + score; 
-}
-
-    void GameOver(){   //game over and restart Button
-        restartButton.gameObject.SetActive(true);
-        gameOverText.gameObject.SetActive(true);
-        IsGameActive = false;
-
+    public void UpdateScore(){
+        scoreText.text = "Score= " + score;
     }
 
-    private void OnTriggerEnter(Collider other){
-        Destroy (gameObject);
-        If (!gameObject.CompareTag("Bad")) {gameManager.GameOver();}
-    }
 
-    public void restartGame(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    public void Update(){
+       UpdateScore();
 
+     If (score == maxScore){
+        Score.SetActive(false);
+        winning.SetActive(true);        //when the score Is equal to zero you will win
+    }
+    }
 
 }
