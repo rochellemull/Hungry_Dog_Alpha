@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class Scoring : MonoBehaviour
 {
-
 public Scoring score;
 
 void update(){
