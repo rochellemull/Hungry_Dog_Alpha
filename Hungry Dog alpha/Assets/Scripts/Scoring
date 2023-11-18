@@ -9,7 +9,7 @@ public class Scoring : MonoBehaviour
 {
 public Scoring score;
 
-void update(){
+public void Update(){
 If (Inpute.GetKeyDown(keyCode.Space)){     //when you press to the space bar the score Is gonna change 
 Score.AddScore(-1);
 }
