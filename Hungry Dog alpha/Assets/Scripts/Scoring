@@ -9,7 +9,7 @@ public class Scoring : MonoBehaviour
 {
     public Scoring score;
 
-    public void start(){
+    public void Start(){
 
     }
 
