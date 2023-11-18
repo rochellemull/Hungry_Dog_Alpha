@@ -7,12 +7,16 @@ using UnityEngine.UI;
 
 public class Scoring : MonoBehaviour
 {
-public Scoring score;
+    public Scoring score;
 
-public void Update(){
-If (Inpute.GetKeyDown(keyCode.Space)){     //when you press to the space bar the score Is gonna change 
-Score.AddScore(-1);
-}
-}
+    public void start(){
+
+    }
+
+    public void Update(){
+        If (Inpute.GetKeyDown(keyCode.Space)){     //when you press to the space bar the score Is gonna change 
+        Score.AddScore(-1);
+        }
+    }
 
 }
