@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float jumpForce 0.5f;
+    public float jumpForce = 0.5f;
     public float gravityModifier;
     public bool IsOnGround = true;
     public bool gameOver = false;
@@ -61,7 +61,9 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Bone"))
         {
+            
             player.PlayOneShot(bark, 1.0f);
+            
 
         }
         else if (collision.gameObject.CompareTag("Ball"))
@@ -85,6 +87,11 @@ public class PlayerController : MonoBehaviour
             spawnManager.InvokeRepeating("SpawnFoodObjects", delaySpawn, interval);
             spawnManager.InvokeRepeating("SpawnObstacle", delaySpawn, interval);
             StartCoroutine(PowerUpCool());
+
+        }
+        if (other.gameObject.CompareTag("Bone"))
+        {
+            Destroy(other.gameObject);
 
         }
     }

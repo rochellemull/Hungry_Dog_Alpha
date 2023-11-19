@@ -2,18 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagment;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
 
 //adding scoring Script
-    public Text ScoringText;
+    public TextMeshProUGUI scoringText;
     public int score;
     public int finalScore = 0;
-    public gameObject Score;
+    public GameObject Score;
     public GameObject winning;
+    public int maxScore;
 
     // Start is called before the first frame update
     void Start()
@@ -23,21 +24,31 @@ public class GameManager : MonoBehaviour
     }
 
     public void AddScore (int newScore){
-       score += newScore;
+       
     }
 
     public void UpdateScore(){
-        scoreText.text = "Score= " + score;
+        score = score - 5;
+        scoringText.text = "Score= " + score;
     }
 
 
     public void Update(){
        UpdateScore();
 
-     If (score == maxScore){
+     if (score == maxScore){
         Score.SetActive(false);
         winning.SetActive(true);        //when the score Is equal to zero you will win
     }
+    }
+    public void SetUp(int score)
+    {
+        gameObject.SetActive(true);
+        scoringText.text = score.ToString() + "points ";
+    }
+    public void RestartButton()
+    {
+        SceneManager.LoadScene("Restart");
     }
 
 }

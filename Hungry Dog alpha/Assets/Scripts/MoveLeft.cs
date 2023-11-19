@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveLeft : MonoBehaviout{
+public class MoveLeft : MonoBehaviour{
 
-    private float speed = 20;
-    private Playercontroller playerControllerScript;
+    private float speed = 10;
+    private PlayerController playerControllerScript;
 
-Void Start(){
+void Start(){
     playerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
 }
 
-Void update(){
-    If (playerControllerScript.gameOver == false){
+void Update(){
+    if(playerControllerScript.gameOver == false){
         transform.Translate(Vector3.left * Time.deltaTime * speed);
 }
 }

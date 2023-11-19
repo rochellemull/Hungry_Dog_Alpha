@@ -6,7 +6,7 @@ public class Background : MonoBehaviour
 {
     // Start is called before the first frame update
     private Vector3 start;
-    private float repeat;
+    private float repeat = 3;
     // Start is called before the first frame update
     void Start()
     {
