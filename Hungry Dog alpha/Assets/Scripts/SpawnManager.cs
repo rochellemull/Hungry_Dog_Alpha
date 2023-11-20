@@ -6,12 +6,13 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject fencePrefab;
-    public GameObject[] foodPrefab;
+    public GameObject ballPrefab;
+    public GameObject bonePrefab;
     private float delay = 2;
     private float intervalSpawn = 1.5f;
-    private float rotatingSpeed;
-    //public GameObject ball;
-    //public GameObject bone;
+    
+   
+    int countBone = 0;
     private Vector3 spawnFenceLocation;
     public PlayerController player;
     // Start is called before the first frame update
@@ -20,26 +21,33 @@ public class SpawnManager : MonoBehaviour
         InvokeRepeating("SpawnFoodObjects", delay, intervalSpawn);
         InvokeRepeating("SpawnObstacle", delay, intervalSpawn);
         player = GameObject.Find("Player").GetComponent<PlayerController>();
-        //ball = GameObject.FindWithTag("Ball");
-        //bone = GameObject.FindWithTag("Bone");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        //ball.transform.Rotate(90, 0.0f, 0);
-       // bone.transform.Rotate(90, 0, 0);
+        
     }
     void SpawnFoodObjects()
     {
         Vector3 spawnFoodLocation = new Vector3(10, Random.Range(0, 5), 0);
      
-        int index = Random.Range(0, foodPrefab.Length);
+       
 
 
         if (!player.gameOver)
         {
-            Instantiate(foodPrefab[index], spawnFoodLocation, foodPrefab[index].transform.rotation);
+            
+            if (countBone != 5)
+            {
+                Instantiate(bonePrefab, spawnFoodLocation, bonePrefab.transform.rotation);
+                countBone++;
+            }
+            else if(countBone == 5) {
+                Instantiate(ballPrefab,spawnFoodLocation, ballPrefab.transform.rotation);
+                countBone = 0;  
+            }
         }
 
 

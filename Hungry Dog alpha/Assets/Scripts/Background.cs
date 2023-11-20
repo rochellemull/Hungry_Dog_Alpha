@@ -24,9 +24,5 @@ public class Background : MonoBehaviour
         }
 
     }
-    public void moveBackground(float repeat)
-    {
-        
-        
-    }
+    
 }

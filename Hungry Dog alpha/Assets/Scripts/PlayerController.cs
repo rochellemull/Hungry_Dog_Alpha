@@ -83,9 +83,7 @@ public class PlayerController : MonoBehaviour
             repeatFast = GetComponent<BoxCollider>().size.x / 4;
             float delaySpawn = .25f;
             float interval = .5f;
-            background.moveBackground(repeatFast);
             spawnManager.InvokeRepeating("SpawnFoodObjects", delaySpawn, interval);
-            spawnManager.InvokeRepeating("SpawnObstacle", delaySpawn, interval);
             StartCoroutine(PowerUpCool());
 
         }
