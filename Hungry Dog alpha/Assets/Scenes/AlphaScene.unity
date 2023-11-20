@@ -368,7 +368,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d70999ba737574c808b1d37cbdca0c37, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 87890a66193394e3cb7d6284cc6b4344, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.6
   m_Pitch: 1
@@ -716,9 +716,9 @@ MonoBehaviour:
   IsOnGround: 1
   gameOver: 0
   jump: {fileID: 0}
-  bark: {fileID: 0}
-  crash: {fileID: 0}
-  player: {fileID: 0}
+  bark: {fileID: 8300000, guid: 7ff87bd462765499c8640c6cc17af872, type: 3}
+  crash: {fileID: 8300000, guid: 986d6b30567e30e428f3f21373fe45ca, type: 3}
+  player: {fileID: 534669906}
   hasPower: 0
   powerDuration: 5
 --- !u!65 &1264926092
