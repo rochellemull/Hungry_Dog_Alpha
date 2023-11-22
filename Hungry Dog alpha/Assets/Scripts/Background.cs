@@ -11,7 +11,7 @@ public class Background : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //start = transform.position;
+        
         start = transform.position;
         repeat = GetComponent<BoxCollider>().size.x / 2;
     }
@@ -19,20 +19,16 @@ public class Background : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        
-
-    }
-
-    public void moveBackground(bool isStart)
-    {
-        if (isStart == true) {
-            if (transform.position.x < (start.x - repeat))
-            {
-                transform.position = start;
-            }
+        if (transform.position.x < (start.x - repeat))
+        {
+            transform.position = start;
         }
+
+
+
     }
+
+ 
     
 
     }

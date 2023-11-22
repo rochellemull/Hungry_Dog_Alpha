@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && IsOnGround && !gameOver)
+        if (Input.GetKeyDown(KeyCode.Space)&& IsOnGround  && !gameOver)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             IsOnGround = false;
@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
             
 
         }
-        else if (other.gameObject.CompareTag("Ball"))
+        else if (other.gameObject.CompareTag("ballo"))
         {
             player.PlayOneShot(bark, 1.0f);
             Destroy(other.gameObject);
@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ball"))
         {
-            Destroy(other.gameObject);
+
             hasPower = true;
             float delaySpawn = .25f;
             float interval = .5f;

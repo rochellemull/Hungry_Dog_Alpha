@@ -359,6 +359,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MoveLeft.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Score.cs"
 "Assets/Scripts/SpawnManager.cs"
 "Assets/Spin.cs"
 -langversion:9.0

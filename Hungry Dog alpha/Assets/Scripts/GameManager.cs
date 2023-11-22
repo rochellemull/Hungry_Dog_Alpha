@@ -14,8 +14,11 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI timerText;
     public Button restartButton;
     private int score;
+    public int maxScore=0;
     private int timer = 60;
     public bool isGameActive;
+    public GameObject scoreGame;
+    public GameObject winning;
     private Background background;
     
     
@@ -23,25 +26,22 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        score = 50;
     } 
 
     public void StartGame()
     {
         isGameActive = true;
         StartCoroutine(Timer());
-        score = 50;
-        UpdateScore(50);
+        UpdateScore();
         
-       
 
-
+   
     }
     public void Update(){
-        if (isGameActive)
-        {
-            background.moveBackground(true);
-        }
+       UpdateScore();
+        
+        
     }
     IEnumerator Timer()
     {
@@ -60,12 +60,17 @@ public class GameManager : MonoBehaviour
 
         }
     }
-
-    public void UpdateScore(int scoreToAdd)
+    public void AddScore(int newScore)
     {
-        score -= scoreToAdd;
+        score += newScore;
+    }
+    public void UpdateScore()
+    {
+        
         scoreText.text = "Score: " + score;
     }
+   
+
     public void GameOver()
     {
         gameOverText.gameObject.SetActive(true);

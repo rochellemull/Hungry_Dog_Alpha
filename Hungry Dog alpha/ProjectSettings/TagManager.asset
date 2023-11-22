@@ -16,6 +16,7 @@ TagManager:
   - Game Manager
   - Title text
   - Start
+  - ballo
   layers:
   - Default
   - TransparentFX
