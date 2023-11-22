@@ -9,6 +9,13 @@ TagManager:
   - Bone
   - Ball
   - Fence
+  - Game Over
+  - Restart
+  - Score
+  - Timer
+  - Game Manager
+  - Title text
+  - Start
   layers:
   - Default
   - TransparentFX

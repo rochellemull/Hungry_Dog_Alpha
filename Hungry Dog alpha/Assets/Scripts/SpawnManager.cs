@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject[] fencePrefab;
-    public GameObject[] ballPrefab;
-    public GameObject[] bonePrefab;
+    public GameObject fencePrefab;
+    public GameObject ballPrefab;
+    public GameObject bonePrefab;
     private float delay = 2;
     private float intervalSpawn = 1.5f;
     
@@ -27,13 +27,13 @@ public class SpawnManager : MonoBehaviour
     void SpawnFoodObjects()
     {
         Vector3 spawnFoodLocation = new Vector3(10, Random.Range(0, 5), 0);
-        int index = Random.Range(0, bonePrefab.Length);
+        
         
         if (!player.gameOver)
         {
             if (countBone != 5)
             {
-                Instantiate(bonePrefab[index], spawnFoodLocation, bonePrefab[index].transform.rotation);
+                Instantiate(bonePrefab, spawnFoodLocation, bonePrefab.transform.rotation);
                 countBone++;
             }
             else if(countBone == 5) {
@@ -45,12 +45,12 @@ public class SpawnManager : MonoBehaviour
     
     void SpawnObstacle()
     {
-        Vector3 spawnFenceLocation = new Vector3(10, Random.Range(15, 0), 0);
-        int index = Random.Range(0, fencePrefab.Length);
+        Vector3 spawnFenceLocation = new Vector3(10,0, 0);
+        
         
         if (!player.gameOver)
         {
-            Instantiate(fencePrefab[index], spawnFenceLocation, fencePrefab[index].transform.rotation);
+            Instantiate(fencePrefab, spawnFenceLocation, fencePrefab.transform.rotation);
         }
     }
   

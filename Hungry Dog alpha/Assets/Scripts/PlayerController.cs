@@ -11,13 +11,11 @@ public class PlayerController : MonoBehaviour
     public bool IsOnGround = true;
     public bool gameOver = false;
 
-    public AudioClip jump;
+    
     public AudioClip bark;
     public AudioClip crash;
     public AudioSource player;
     private SpawnManager spawnManager;
-    private Background background;
-    private float repeatFast;
     public bool hasPower;
     public int powerDuration = 5;
 
@@ -36,39 +34,40 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsOnGround && !gameOver)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            player.PlayOneShot(jump, 1.0f);
-            player.PlayOneShot(bark, 1.0f);
             IsOnGround = false;
         }
 
     }
 
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground") && !gameOver)
         {
             IsOnGround = true;
+          
         }
-        else if (collision.gameObject.CompareTag("Fence"))
+        else if (other.gameObject.CompareTag("Fence"))
         {
             gameOver = true;
-            Debug.Log("Game Over");
             player.PlayOneShot(crash, 1.0f);
+            player.Stop();
 
 
 
         }
-        else if (collision.gameObject.CompareTag("Bone"))
+        else if (other.gameObject.CompareTag("Bone"))
         {
             
             player.PlayOneShot(bark, 1.0f);
+            Destroy(other.gameObject);
             
 
         }
-        else if (collision.gameObject.CompareTag("Ball"))
+        else if (other.gameObject.CompareTag("Ball"))
         {
             player.PlayOneShot(bark, 1.0f);
+            Destroy(other.gameObject);
 
 
 
@@ -80,7 +79,6 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(other.gameObject);
             hasPower = true;
-            repeatFast = GetComponent<BoxCollider>().size.x / 4;
             float delaySpawn = .25f;
             float interval = .5f;
             spawnManager.InvokeRepeating("SpawnFoodObjects", delaySpawn, interval);
