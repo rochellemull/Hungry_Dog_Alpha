@@ -26,7 +26,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnFoodObjects()
     {
-        Vector3 spawnFoodLocation = new Vector3(10, Random.Range(0, 5), 0);
+        Vector3 spawnFoodLocation = new Vector3(10, Random.Range(3, 8), 0);
         
         
         if (!player.gameOver)
