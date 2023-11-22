@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
             
 
         }
-        else if (other.gameObject.CompareTag("ballo"))
+        else if (other.gameObject.CompareTag("Ball"))
         {
             player.PlayOneShot(bark, 1.0f);
             Destroy(other.gameObject);
