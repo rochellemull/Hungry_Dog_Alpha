@@ -15,11 +15,11 @@ public class GameManager : MonoBehaviour
     public Button restartButton;
     private int score;
     public int maxScore=0;
-    private int timer = 60;
+    //private float timer = 0;
     public bool isGameActive;
     public GameObject scoreGame;
     public GameObject winning;
-    private Background background;
+    public Image endScene;
     
     
 
@@ -27,12 +27,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         score = 50;
+       
+       
     } 
 
     public void StartGame()
     {
         isGameActive = true;
-        StartCoroutine(Timer());
+        
         UpdateScore();
         
 
@@ -43,23 +45,7 @@ public class GameManager : MonoBehaviour
         
         
     }
-    IEnumerator Timer()
-    {
-        while(isGameActive)
-        {
-            if (timer > 0)
-            {
-                timerText.text = "Timer: " + timer;
-                yield return new WaitForSeconds(1);
-                timer--;
-            }
-            else
-            {
-                GameOver();
-            }
-
-        }
-    }
+    
     public void AddScore(int newScore)
     {
         score += newScore;
@@ -73,8 +59,10 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+
         gameOverText.gameObject.SetActive(true);
         restartButton.gameObject.SetActive(true);
+        endScene.gameObject.SetActive(true);
         isGameActive = false;
     }
     public void RestartGame()

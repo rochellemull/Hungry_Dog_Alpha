@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Scoring : MonoBehaviour
 {
-public GameManager score;
+    public GameManager score;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,8 @@ public GameManager score;
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)){
+      
+        if(Input.GetKeyDown(KeyCode.Space)) {
             score.AddScore(-1);
         }
          

@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     public AudioClip crash;
     public AudioSource player;
     private SpawnManager spawnManager;
+    public GameManager gameManager;
+
     public bool hasPower;
     public int powerDuration = 5;
 
@@ -24,7 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier;
-        player = GetComponent<AudioSource>();
+        //player = GetComponent<AudioSource>();
 
     }
 
@@ -52,6 +54,8 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             player.PlayOneShot(crash, 1.0f);
             player.Stop();
+            gameManager.GameOver();
+
 
 
 
@@ -64,37 +68,17 @@ public class PlayerController : MonoBehaviour
             
 
         }
-        else if (other.gameObject.CompareTag("Ball"))
-        {
-            player.PlayOneShot(bark, 1.0f);
-            Destroy(other.gameObject);
-
-
-
-        }
+        
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Ball"))
-        {
-
-            hasPower = true;
-            float delaySpawn = .25f;
-            float interval = .5f;
-            spawnManager.InvokeRepeating("SpawnFoodObjects", delaySpawn, interval);
-            StartCoroutine(PowerUpCool());
-
-        }
+        
         if (other.gameObject.CompareTag("Bone"))
         {
             Destroy(other.gameObject);
 
         }
     }
-    IEnumerator PowerUpCool()
-    {
-        yield return new WaitForSeconds(powerDuration);
-        hasPower = false;
-    }
+   
 
 }

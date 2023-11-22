@@ -7,16 +7,13 @@ TagManager:
   - Ground
   - Background
   - Bone
-  - Ball
   - Fence
   - Game Over
   - Restart
   - Score
   - Timer
   - Game Manager
-  - Title text
-  - Start
-  - ballo
+  - Github
   layers:
   - Default
   - TransparentFX
