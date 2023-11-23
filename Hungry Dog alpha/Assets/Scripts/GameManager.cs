@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public Button restartButton;
     private int score;
     public int maxScore=0;
-    //private float timer = 0;
+    public  float timer = 60.0f;
     public bool isGameActive;
     public GameObject scoreGame;
     public GameObject winning;
@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
         score = 50;
        
        
@@ -42,8 +43,15 @@ public class GameManager : MonoBehaviour
     }
     public void Update(){
        UpdateScore();
+        timer -= Time.time;
+        timerText.SetText("Time: " + timer);
         
-        
+        if (timer < 1)
+        {
+            GameOver();
+        }
+
+
     }
     
     public void AddScore(int newScore)
