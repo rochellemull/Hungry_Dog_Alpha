@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     }
     public void Update(){
        UpdateScore();
-        timer -= Time.time;
+        timer -= Time.deltaTime;
         timerText.SetText("Time: " + timer);
         
         if (timer < 1)
