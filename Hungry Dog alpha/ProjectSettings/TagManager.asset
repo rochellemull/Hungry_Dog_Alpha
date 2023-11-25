@@ -14,6 +14,12 @@ TagManager:
   - Timer
   - Game Manager
   - Github
+  - Instructions
+  - Start
+  - instruct b
+  - back
+  - menu
+  - title
   layers:
   - Default
   - TransparentFX

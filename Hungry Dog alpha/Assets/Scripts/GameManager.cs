@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public TextMeshProUGUI timerText;
     public Button restartButton;
+    public Button mainMenu;
     private int score;
     public int maxScore=0;
     public  float timer = 60.0f;
@@ -44,7 +45,7 @@ public class GameManager : MonoBehaviour
     public void Update(){
        UpdateScore();
         timer -= Time.deltaTime;
-        timerText.SetText("Time: " + timer);
+        timerText.SetText("Time: " + Mathf.Round(timer));
         
         if (timer < 1)
         {
@@ -72,12 +73,17 @@ public class GameManager : MonoBehaviour
 
         gameOverText.gameObject.SetActive(true);
         restartButton.gameObject.SetActive(true);
+        mainMenu.gameObject.SetActive(true);
         endScene.gameObject.SetActive(true);
         isGameActive = false;
     }
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadSceneAsync(0);
     }
 
 }

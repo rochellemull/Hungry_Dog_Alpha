@@ -358,6 +358,7 @@
 "Assets/Scripts/Background.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/MoveLeft.cs"
+"Assets/Scripts/Opening.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Scoring.cs"
 "Assets/Scripts/SpawnManager.cs"
