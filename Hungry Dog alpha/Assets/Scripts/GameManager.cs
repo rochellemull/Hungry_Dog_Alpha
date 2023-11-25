@@ -57,6 +57,8 @@ public class GameManager : MonoBehaviour
     public void AddScore(int newScore)
     {
         score += newScore;
+        
+        //score.this;
     }
     public void UpdateScore()
     {
