@@ -18543,32 +18543,32 @@
       "DebugActionIndex": 391
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.framework.js.gz_bnmb.info",
-      "DisplayName": "Writing Hungry_Dog_Alpha.framework.js.gz_bnmb.info",
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.framework.js.unityweb_3b75.info",
+      "DisplayName": "Writing Hungry_Dog_Alpha.framework.js.unityweb_3b75.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175426,
-      "PayloadLength": 521,
+      "PayloadOffset": 175432,
+      "PayloadLength": 527,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.framework.js.gz_bnmb.info"
+        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.framework.js.unityweb_3b75.info"
       ],
       "DebugActionIndex": 392
     },
     {
-      "Annotation": "GzipMarker C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.framework.js.gz",
+      "Annotation": "GzipMarker C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.framework.js.unityweb",
       "DisplayName": "GzipMarker Hungry_Dog_Alpha.framework.js",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Hungry_Dog_Alpha.framework.js.gz_bnmb.info\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Hungry_Dog_Alpha.framework.js.unityweb_3b75.info\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.framework.js.gz_bnmb.info",
+        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.framework.js.unityweb_3b75.info",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
       ],
       "Outputs": [
-        "C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.framework.js.gz"
+        "C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.framework.js.unityweb"
       ],
       "ToBuildDependencies": [
         391,
@@ -18599,32 +18599,32 @@
       "DebugActionIndex": 394
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.wasm.gz_8838.info",
-      "DisplayName": "Writing Hungry_Dog_Alpha.wasm.gz_8838.info",
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.wasm.unityweb_wudv.info",
+      "DisplayName": "Writing Hungry_Dog_Alpha.wasm.unityweb_wudv.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 176049,
-      "PayloadLength": 505,
+      "PayloadOffset": 176067,
+      "PayloadLength": 511,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.wasm.gz_8838.info"
+        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.wasm.unityweb_wudv.info"
       ],
       "DebugActionIndex": 395
     },
     {
-      "Annotation": "GzipMarker C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.wasm.gz",
+      "Annotation": "GzipMarker C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.wasm.unityweb",
       "DisplayName": "GzipMarker Hungry_Dog_Alpha.wasm",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Hungry_Dog_Alpha.wasm.gz_8838.info\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Hungry_Dog_Alpha.wasm.unityweb_wudv.info\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.wasm.gz_8838.info",
+        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.wasm.unityweb_wudv.info",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
       ],
       "Outputs": [
-        "C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.wasm.gz"
+        "C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.wasm.unityweb"
       ],
       "ToBuildDependencies": [
         394,
@@ -18669,7 +18669,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 176642,
+      "PayloadOffset": 176666,
       "PayloadLength": 2083,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
@@ -18730,32 +18730,32 @@
       "DebugActionIndex": 401
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.data.gz_q3pl.info",
-      "DisplayName": "Writing Hungry_Dog_Alpha.data.gz_q3pl.info",
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.data.unityweb_qqcf.info",
+      "DisplayName": "Writing Hungry_Dog_Alpha.data.unityweb_qqcf.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 178827,
-      "PayloadLength": 482,
+      "PayloadOffset": 178857,
+      "PayloadLength": 488,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.data.gz_q3pl.info"
+        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.data.unityweb_qqcf.info"
       ],
       "DebugActionIndex": 402
     },
     {
-      "Annotation": "GzipMarker C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.data.gz",
+      "Annotation": "GzipMarker C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.data.unityweb",
       "DisplayName": "GzipMarker Hungry_Dog_Alpha.data",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Hungry_Dog_Alpha.data.gz_q3pl.info\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Hungry_Dog_Alpha.data.unityweb_qqcf.info\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.data.gz_q3pl.info",
+        "Library/Bee/artifacts/csharpactions/Hungry_Dog_Alpha.data.unityweb_qqcf.info",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
       ],
       "Outputs": [
-        "C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.data.gz"
+        "C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.data.unityweb"
       ],
       "ToBuildDependencies": [
         401,
@@ -18769,7 +18769,7 @@
     {
       "Annotation": "PreprocessJS C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/Build/Hungry_Dog_Alpha.loader.js",
       "DisplayName": "PreprocessJS Hungry_Dog_Alpha.loader",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/roche/OneDrive/Documents/GitHub/Hungry\\x5fDog\\x5fAlpha/Build/Hungry\\x5fDog\\x5fAlpha.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Hungry Dog alpha'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Hungry\\x5fDog\\x5fAlpha.data.gz'\" \"FRAMEWORK_FILENAME='Hungry\\x5fDog\\x5fAlpha.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Hungry\\x5fDog\\x5fAlpha.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Hungry\\x5fDog\\x5fAlpha.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/roche/OneDrive/Documents/GitHub/Hungry\\x5fDog\\x5fAlpha/Build/Hungry\\x5fDog\\x5fAlpha.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Hungry Dog alpha'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Hungry\\x5fDog\\x5fAlpha.data.unityweb'\" \"FRAMEWORK_FILENAME='Hungry\\x5fDog\\x5fAlpha.framework.js.unityweb'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Hungry\\x5fDog\\x5fAlpha.wasm.unityweb'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Gzip'\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Hungry\\x5fDog\\x5fAlpha.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -18783,7 +18783,7 @@
     {
       "Annotation": "PreprocessJS C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/roche/OneDrive/Documents/GitHub/Hungry\\x5fDog\\x5fAlpha/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Hungry Dog alpha'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Hungry\\x5fDog\\x5fAlpha.data.gz'\" \"FRAMEWORK_FILENAME='Hungry\\x5fDog\\x5fAlpha.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Hungry\\x5fDog\\x5fAlpha.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Hungry\\x5fDog\\x5fAlpha.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/roche/OneDrive/Documents/GitHub/Hungry\\x5fDog\\x5fAlpha/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Hungry Dog alpha'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Hungry\\x5fDog\\x5fAlpha.data.unityweb'\" \"FRAMEWORK_FILENAME='Hungry\\x5fDog\\x5fAlpha.framework.js.unityweb'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Hungry\\x5fDog\\x5fAlpha.wasm.unityweb'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Gzip'\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Hungry\\x5fDog\\x5fAlpha.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -18881,7 +18881,7 @@
     {
       "Annotation": "PreprocessJS C:/Users/roche/OneDrive/Documents/GitHub/Hungry_Dog_Alpha/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/roche/OneDrive/Documents/GitHub/Hungry\\x5fDog\\x5fAlpha/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Hungry Dog alpha'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Hungry\\x5fDog\\x5fAlpha.data.gz'\" \"FRAMEWORK_FILENAME='Hungry\\x5fDog\\x5fAlpha.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Hungry\\x5fDog\\x5fAlpha.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Hungry\\x5fDog\\x5fAlpha.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/roche/OneDrive/Documents/GitHub/Hungry\\x5fDog\\x5fAlpha/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Hungry Dog alpha'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Hungry\\x5fDog\\x5fAlpha.data.unityweb'\" \"FRAMEWORK_FILENAME='Hungry\\x5fDog\\x5fAlpha.framework.js.unityweb'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Hungry\\x5fDog\\x5fAlpha.wasm.unityweb'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Gzip'\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Hungry\\x5fDog\\x5fAlpha.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
