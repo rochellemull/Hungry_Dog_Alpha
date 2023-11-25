@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
             
             player.PlayOneShot(bark, 1.0f);
             
-           //GameManager.score.AddScore();
+            gameManager.AddScore(-1);
            
             Destroy(other.gameObject);
 

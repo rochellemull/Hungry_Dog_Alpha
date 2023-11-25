@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     - PlayerController
     - Scoring
     - SpawnManager
-    - Spin
     - URL
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -141,27 +140,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 4978}
+      Script: {instanceID: 5178}
     - Class: 114
-      Script: {instanceID: 5180}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5426}
+      Script: {instanceID: 5518}
     - Class: 114
-      Script: {instanceID: 5520}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 5790}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 5980}
+      Script: {instanceID: 7106}
     - Class: 114
-      Script: {instanceID: 7108}
-    - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 7284}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,21 +219,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 4046}
+      Script: {instanceID: 4044}
     - Class: 114
-      Script: {instanceID: 4292}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4978}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5520}
+      Script: {instanceID: 5518}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 5980}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 7108}
+      Script: {instanceID: 7106}
     - Class: 114
-      Script: {instanceID: 7662}
+      Script: {instanceID: 7660}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -476,12 +473,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: b2249666d00076ce7586277a26ce505b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Spin
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1078,7 +1069,7 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
-      Hash: 3fc5450e167aa05839f56828d364ff7b
+      Hash: 0b1a5bf1ca7a0987ee5c6c7ca8cf9a87
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager

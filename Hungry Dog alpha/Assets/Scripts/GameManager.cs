@@ -10,19 +10,23 @@ public class GameManager : MonoBehaviour
 
 //adding scoring Script
     public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI gameOverText;
     public TextMeshProUGUI timerText;
-    public Button restartButton;
-    public Button mainMenu;
+    
+    
     private int score;
     public int maxScore=0;
+    // inital value for timer
     public  float timer = 60.0f;
     public bool isGameActive;
     public GameObject scoreGame;
-    public GameObject winning;
+   
+    // game over scene objects
     public Image endScene;
-    
-    
+    public Button restartButton;
+    public TextMeshProUGUI gameOverText;
+    public Button mainMenu;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +48,7 @@ public class GameManager : MonoBehaviour
     }
     public void Update(){
        UpdateScore();
+        // will create timer and make it decrease
         timer -= Time.deltaTime;
         timerText.SetText("Time: " + Mathf.Round(timer));
         
@@ -64,10 +69,12 @@ public class GameManager : MonoBehaviour
     public void UpdateScore()
     {
         
+        
         scoreText.text = "Score: " + score;
     }
    
 
+    // will change what appears when the game is over
     public void GameOver()
     {
 
@@ -77,10 +84,12 @@ public class GameManager : MonoBehaviour
         endScene.gameObject.SetActive(true);
         isGameActive = false;
     }
+    //will restart game
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    // will load start menu
     public void MainMenu()
     {
         SceneManager.LoadSceneAsync(0);
