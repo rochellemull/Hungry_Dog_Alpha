@@ -133,35 +133,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2582}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 3062}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 4978}
+      Script: {instanceID: 5178}
     - Class: 114
-      Script: {instanceID: 5180}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5426}
+      Script: {instanceID: 5518}
     - Class: 114
-      Script: {instanceID: 5520}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5788}
     - Class: 114
-      Script: {instanceID: 5790}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 5980}
+      Script: {instanceID: 7106}
     - Class: 114
-      Script: {instanceID: 7108}
+      Script: {instanceID: 7762}
     - Class: 114
-      Script: {instanceID: 7286}
+      Script: {instanceID: 7766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,29 +214,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2170}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 2582}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 3062}
     - Class: 114
-      Script: {instanceID: 4046}
+      Script: {instanceID: 4044}
     - Class: 114
-      Script: {instanceID: 4292}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4978}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5520}
+      Script: {instanceID: 5518}
     - Class: 114
-      Script: {instanceID: 5668}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 5980}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 7108}
+      Script: {instanceID: 7106}
     - Class: 114
-      Script: {instanceID: 23386}
+      Script: {instanceID: 7770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -308,12 +308,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4d2d973168f86c0bf89207eea3e312d7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 8c7923e4db9db79d32e64f025352d419
@@ -1078,12 +1072,6 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
-      Hash: 3fc5450e167aa05839f56828d364ff7b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -1136,6 +1124,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4d2d973168f86c0bf89207eea3e312d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 3fc5450e167aa05839f56828d364ff7b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 4d6440fd2addf434b89c20b80343d31a
