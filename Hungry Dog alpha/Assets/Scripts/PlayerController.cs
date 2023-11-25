@@ -56,16 +56,15 @@ public class PlayerController : MonoBehaviour
             player.Stop();
             gameManager.GameOver();
 
-
-
-
         }
         else if (other.gameObject.CompareTag("Bone"))
         {
             
             player.PlayOneShot(bark, 1.0f);
-            Destroy(other.gameObject);
             
+           //GameManager.score.AddScore();
+           
+            Destroy(other.gameObject);
 
         }
         
