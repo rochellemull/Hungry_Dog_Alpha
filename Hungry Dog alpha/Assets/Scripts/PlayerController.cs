@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
-    public float jumpForce = 0.5f;   
+    public float jumpForce = 0.5f;   //how high the player will jump
     public float gravityModifier;
     public bool IsOnGround = true;
     public bool gameOver = false;
