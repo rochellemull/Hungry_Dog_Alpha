@@ -77,8 +77,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
 
-        gameOverText.gameObject.SetActive(true);   //showing the game over text
-        restartButton.gameObject.SetActive(true);   //restart button
+        gameOverText.gameObject.SetActive(true);   
+        restartButton.gameObject.SetActive(true);   
         mainMenu.gameObject.SetActive(true);
         endScene.gameObject.SetActive(true);
         isGameActive = false;
@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
     //will restart game
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);   //a button called restart will be showing when the game is over
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);   
     }
     // will load start menu
     public void MainMenu()
