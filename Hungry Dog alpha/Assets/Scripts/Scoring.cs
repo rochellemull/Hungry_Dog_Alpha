@@ -16,10 +16,10 @@ public class Scoring : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      /*
+      
         if(Input.GetKeyDown(KeyCode.Space)) {
-            score.AddScore(-1);
-        }*/
+            score.AddScore(-1);     //when you press the space bar the score will decrease by -1 (will be changed)
+        }
          
     }
 }
