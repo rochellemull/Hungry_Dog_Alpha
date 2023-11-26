@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MoveLeft : MonoBehaviour{
 
+    //making the player looks moving by making everything moves to the left like the fence and the bone
+
     private float speed = 10;
     private PlayerController playerControllerScript;
 
