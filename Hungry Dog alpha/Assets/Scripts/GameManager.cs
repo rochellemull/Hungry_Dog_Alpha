@@ -58,17 +58,22 @@ public class GameManager : MonoBehaviour
 
 
     }
-    
+    // will update scores when bones are got
     public void AddScore(int newScore)
     {
+        if (score > 0) { 
         score += newScore;
-        
-        //score.this;
+        }
+        else
+        {
+            GameOver();
+        }
     }
+    //will update text
     public void UpdateScore()
     {
         
-        
+
         scoreText.text = "Score: " + score;  //the score will be showing in the scoring text in unity when the game is on
     }
    

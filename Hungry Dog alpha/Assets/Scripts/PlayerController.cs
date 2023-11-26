@@ -76,6 +76,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Bone"))
         {
             Destroy(other.gameObject);
+            gameManager.AddScore(-1);
 
         }
     }

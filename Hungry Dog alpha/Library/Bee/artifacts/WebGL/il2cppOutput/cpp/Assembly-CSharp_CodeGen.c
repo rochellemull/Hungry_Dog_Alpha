@@ -47,9 +47,6 @@ extern void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (v
 extern void PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989 (void);
 extern void PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1 (void);
 extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
-extern void Scoring_Start_mA1B0F9AFB7C8551858B8F6A782333A51BC6C2F0C (void);
-extern void Scoring_Update_m63208AC4150CFDC450208C98F0A977752865665A (void);
-extern void Scoring__ctor_m97D8F17406EBF94F608E11453D1B989F3F637EC4 (void);
 extern void SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF (void);
 extern void SpawnManager_SpawnFoodObjects_m09F378BDC83ED2FCF5516654E1C1CAE9375EA9D3 (void);
 extern void SpawnManager_SpawnObstacle_mE5D7865D1E72DF72FAB39ACE07DA8AF8E81B4F42 (void);
@@ -58,7 +55,7 @@ extern void URL_OpenGithub_m65BBC96AC60153E570F5E1CD3F67E83946587AEE (void);
 extern void URL__ctor_m73F8CF8E540E20D29BFAE8AEE5C19E73429EC89A (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[46] = 
+static Il2CppMethodPointer s_methodPointers[43] = 
 {
 	BackgroundControl_0_Start_m6FA7D1740A462B940DB65C21CCA95AFEF8005642,
 	BackgroundControl_0_Update_mCFC1B0EE98695AD301BEB6A93799141EB04DFA0F,
@@ -95,9 +92,6 @@ static Il2CppMethodPointer s_methodPointers[46] =
 	PlayerController_OnCollisionEnter_m2FC01282FAEE546C4408E6B901DBB3EB5A5BF989,
 	PlayerController_OnTriggerEnter_mF2704872AEA62333341DCBEA2831320C385701D1,
 	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
-	Scoring_Start_mA1B0F9AFB7C8551858B8F6A782333A51BC6C2F0C,
-	Scoring_Update_m63208AC4150CFDC450208C98F0A977752865665A,
-	Scoring__ctor_m97D8F17406EBF94F608E11453D1B989F3F637EC4,
 	SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF,
 	SpawnManager_SpawnFoodObjects_m09F378BDC83ED2FCF5516654E1C1CAE9375EA9D3,
 	SpawnManager_SpawnObstacle_mE5D7865D1E72DF72FAB39ACE07DA8AF8E81B4F42,
@@ -107,7 +101,7 @@ static Il2CppMethodPointer s_methodPointers[46] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[46] = 
+static const int32_t s_InvokerIndices[43] = 
 {
 	4430,
 	4430,
@@ -150,9 +144,6 @@ static const int32_t s_InvokerIndices[46] =
 	4430,
 	4430,
 	4430,
-	4430,
-	4430,
-	4430,
 	6378,
 	4430,
 };
@@ -160,7 +151,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	46,
+	43,
 	s_methodPointers,
 	0,
 	NULL,

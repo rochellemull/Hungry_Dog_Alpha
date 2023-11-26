@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - MoveLeft
     - Opening
     - PlayerController
-    - Scoring
     - SpawnManager
     - URL
     Unity.Rider.Editor.dll:
@@ -132,33 +131,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2582}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 3062}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 4972}
     - Class: 114
-      Script: {instanceID: 3374}
+      Script: {instanceID: 5174}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 5420}
     - Class: 114
-      Script: {instanceID: 5178}
+      Script: {instanceID: 5514}
     - Class: 114
-      Script: {instanceID: 5424}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 5518}
+      Script: {instanceID: 5972}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 7100}
     - Class: 114
-      Script: {instanceID: 5788}
+      Script: {instanceID: 7742}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 7746}
     - Class: 114
-      Script: {instanceID: 7106}
+      Script: {instanceID: 7750}
     - Class: 114
-      Script: {instanceID: 7284}
+      Script: {instanceID: 7754}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -211,29 +210,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2170}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 2582}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3064}
+      Script: {instanceID: 3062}
     - Class: 114
-      Script: {instanceID: 4044}
+      Script: {instanceID: 4040}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4286}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 4972}
     - Class: 114
-      Script: {instanceID: 5518}
+      Script: {instanceID: 5514}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5662}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 5972}
     - Class: 114
-      Script: {instanceID: 7106}
+      Script: {instanceID: 7100}
     - Class: 114
-      Script: {instanceID: 7660}
+      Script: {instanceID: 7652}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -305,12 +304,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4d2d973168f86c0bf89207eea3e312d7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 8c7923e4db9db79d32e64f025352d419
@@ -533,12 +526,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MoveLeft
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -853,12 +840,6 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: db04d2742d2fc2344ef069aaa0587e14
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Scoring
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1069,12 +1050,6 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
-      Hash: 0b1a5bf1ca7a0987ee5c6c7ca8cf9a87
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -1133,6 +1108,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4d2d973168f86c0bf89207eea3e312d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: d2767f00cd7da0f43d6a3eb7bc6f960d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MoveLeft
   platform: 20
   scenePathNames:
   - Assets/Scenes/Opening.unity
