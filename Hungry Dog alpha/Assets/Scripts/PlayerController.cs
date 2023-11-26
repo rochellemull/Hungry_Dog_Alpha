@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerRb = GetComponent<Rigidbody>();
+        playerRb = GetComponent<Rigidbody>();   //calling the method in the Rigidbody to control over the force and the gravity
         Physics.gravity *= gravityModifier;    //it will make the player to stay on ground
         //player = GetComponent<AudioSource>();
 
