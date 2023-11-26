@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour
     
     
     private int score;
-    public int maxScore=0;  //when the score get to zero
     // inital value for timer
     public  float timer = 60.0f;
     public bool isGameActive;
@@ -33,7 +32,7 @@ public class GameManager : MonoBehaviour
     {
        
         score = 50;   //when the game starts the score will start from 50. 
-                      //the score will decrease each time the player get the bone
+                      //the score will decrease each time the player get a bone
        
     } 
 
