@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     
     
     private int score;
-    public int maxScore=0;
+    public int maxScore=0;  //when the score get to zero
     // inital value for timer
     public  float timer = 60.0f;
     public bool isGameActive;
@@ -32,8 +32,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
        
-        score = 50;
-       
+        score = 50;   //when the game starts the score will start from 50. 
+                      //the score will decrease each time the player get the bone
        
     } 
 
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
     {
         
         
-        scoreText.text = "Score: " + score;
+        scoreText.text = "Score: " + score;  //the score will be showing in the scoring text in unity when the game is on
     }
    
 
@@ -78,8 +78,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
 
-        gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(true);
+        gameOverText.gameObject.SetActive(true);   //showing the game over text
+        restartButton.gameObject.SetActive(true);   //restart button
         mainMenu.gameObject.SetActive(true);
         endScene.gameObject.SetActive(true);
         isGameActive = false;
@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
     //will restart game
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);   //a button called restart will be showing when the game is over
     }
     // will load start menu
     public void MainMenu()
